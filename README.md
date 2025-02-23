@@ -1,6 +1,6 @@
 ## Helmet-detection using YOLO 
 
-**Project Overview**
+### Project Overview
 This project aims to detect helmets in images and videos using the YOLO (You Only Look Once) object detection algorithm. The primary objective is to enhance safety by ensuring that individuals are wearing helmets in various environments, such as construction sites or while riding motorcycles.
 
 
@@ -27,16 +27,16 @@ This project aims to detect helmets in images and videos using the YOLO (You Onl
 
 
 ### Project Workflow
-1. Load Pre-trained Model: Load the pre-trained YOLOv8 model for helmet detection.
+1.  Load Pre-trained Model: Load the pre-trained YOLOv8 model for helmet detection.
 
-2. Resize Input Frames: Resize input images or video frames to the required size.
+2.  Resize Input Frames: Resize input images or video frames to the required size.
 
-3. Object Detection: Pass the frames through the YOLOv8 model to detect helmets.
+3.  Object Detection: Pass the frames through the YOLOv8 model to detect helmets.
 
-4. Visualization: Use the Supervision package to visualize the detections on the images.
+4.  Visualization: Use the Supervision package to visualize the detections on the images.
 
-5. Store Results: Save the resulting annotated images and generate a CSV file containing detection information.
+5.  Store Results: Save the resulting annotated images and generate a CSV file containing detection information.
 
-6. Evaluation: Evaluate the detections using a confusion matrix and calculate accuracy and loss metrics.
+6.  Evaluation: Evaluate the detections using a confusion matrix and calculate accuracy and loss metrics.
 
 
